@@ -124,17 +124,19 @@
     </div>
 
     <!-- home page -->
-  
-      <a id="introText" onclick="openURL('https://youtube.com/')" class="sidebar-icon group 
-      align-middle
-      ali
+    <div id="home" class="flex
+         bg-gray-700
+         h-full w-full pl-16
+         overflow-hidden">
+      <a id="introText" onclick="openPage('search'); selectedIcon('icon-search')" class="font-Inter p-3 m-auto 
+            w-[350px] h-15
+            rounded-lg
             text-center
-">
-            <svg xmlns="http://www.w3.org/2000/svg" class="absolute h-7 w-7" viewBox="0 0 576 512">
-              <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-              <path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
-            </svg>
-       
+            cursor-pointer
+            bg-gray-800 text-white">
+            <br>Hello</br>
+        <b>Choose what are you trying to do from the left side</b>
+        <br>And then Search the web<br>With no Iranian issues</a>
     </div>
 
     <!-- search page -->
@@ -146,7 +148,7 @@
       <form class="flex m-auto pl-16 w-[45%]">
         <input id="searchInput" class="p-3 
                w-full h-15
-               input-bar" placeholder="Search here">
+               input-bar" placeholder="URL or Search">
       </form>
     </div>
 
